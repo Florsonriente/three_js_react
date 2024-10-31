@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+}
+
+#root {
+  height: 100%; /* Ensure the root div takes full height */
+}
+
+canvas {
+  display: block; /* Remove inline spacing */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+}
