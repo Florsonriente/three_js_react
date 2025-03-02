@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cube references for drawing practice
+* source:	https://sketchfab.com/3d-models/cube-references-for-drawing-practice-3eebd816309b446caeed99750ec112ce
+* author:	ryad_raba (https://sketchfab.com/ryad_raba)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cube references for drawing practice" (https://sketchfab.com/3d-models/cube-references-for-drawing-practice-3eebd816309b446caeed99750ec112ce) by ryad_raba (https://sketchfab.com/ryad_raba) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

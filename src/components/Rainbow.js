@@ -11,7 +11,7 @@ const Rainbow = () => {
   return (
     <mesh ref={arcRef} position={[0, 1, -10]} rotation={[1.5, 0, 0]}>
       <torusGeometry args={[4, 0.2, 16, 100]} />
-      <meshStandardMaterial color="rgb(255, 100, 200)" emissive="pink" />
+      <meshStandardMaterial color="rgb(199, 22, 184)"  />
     </mesh>
   );
 };

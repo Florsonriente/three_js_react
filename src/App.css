@@ -1,14 +1,164 @@
 html, body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
   height: 100%;
-  margin: 0; /* Remove default margin */
+ 
+  /* font-family: 'Sunwish Maverick', Impact, 'Arial Narrow Bold', sans-serif; */
+  color: #ffffff; /* White text */
+  background-color: #900999; 
+}
+@font-face {
+  font-family: 'Sunwish Maverick';
+  src: url('/fonts/Sunwish Maverick.ttf') format('ttf'),
+       url('/fonts/Sunwish Maverick.ttf') format('ttf'),
+       url('/fonts/Sunwish Maverick.ttf') format('ttf');
 }
 
+body {
+  font-family: 'Sunwish Maverick', sans-serif;
+}
+
+
+
 #root {
-  height: 100%; /* Ensure the root div takes full height */
+  height: 100%;
 }
 
 canvas {
-  display: block; /* Remove inline spacing */
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: auto;
 }
+
+
+#page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+/* Normalize CSS */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Wrapper 
+.wrapper {
+  width: 900px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}*/
+
+/* Before/After Images */
+.before,
+.after {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.content-image {
+  height: 100%;
+}
+
+/* After Image initial width
+.after {
+  width: 125px;
+}
+ */
+/* Scroller
+.scroller {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.9;
+  pointer-events: auto;
+  cursor: pointer;
+} */
+
+/* .scroller:hover {
+  opacity: 1;
+}
+
+.scrolling {
+  pointer-events: none;
+  opacity: 1;
+}
+
+.scroller__thumb {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+.scroller:before,
+.scroller:after {
+  content: " ";
+  display: block;
+  width: 7px;
+  height: 9999px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3.5px;
+  z-index: 30;
+  transition: 0.1s;
+}
+
+.scroller:before {
+  top: 100%;
+}
+
+.scroller:after {
+  bottom: 100%;
+}
+
+.scroller {
+  border: 5px solid #fff;
+}
+
+.scroller:before,
+.scroller:after {
+  background: #fff;
+}
+
+
+.customButton {
+  background: transparent;
+  border: none;
+  color: rgb(201, 26, 26);
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Sunwish Maverick', Impact, 'Arial Narrow Bold', sans-serif;
+} */
+
+/* h2 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-family: 'Sunwish Maverick', sans-serif;
+  position: relative;
+  z-index: 2;
+font-size:12em;
+color:red;
+
+} */
